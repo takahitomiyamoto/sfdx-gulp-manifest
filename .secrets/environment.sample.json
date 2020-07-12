@@ -1,0 +1,27 @@
+{
+  "secrets": {
+    "privateKey": ".secrets/server.key",
+    "clientId": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "username": "xxxxxxxxxx",
+    "hostname": "login.salesforce.com",
+    "asOfVersion": "48.0",
+    "myDomain": "xxxxx-dev-ed"
+  },
+  "assets": {
+    "wsdl": {
+      "metadata": ".assets/metadata.wsdl"
+    }
+  },
+  "logs": {
+    "root": ".logs",
+    "prefix": {
+      "listMetadata": ".logs/20.list-metadata",
+      "metadataTypeMembers": ".logs/30.members"
+    },
+    "loginJwt": ".logs/00.loginJwt.json",
+    "metadataTypesNoFolder": ".logs/10.metadata-types-no-folder.json",
+    "metadataTypesInFolder": ".logs/11.metadata-types-in-folder.json",
+    "metadataTypesFolder": ".logs/12.metadata-types-folder.json",
+    "manifest": "manifest/package.xml"
+  }
+}
