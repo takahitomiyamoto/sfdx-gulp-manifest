@@ -45,6 +45,7 @@ Enjoy!!
 
 ## Acknowledgment
 
+- [salesforce-manifest-generator](https://github.com/takahitomiyamoto/salesforce-manifest-generator)
 - [heat-sfdx-metadata](https://github.com/takahitomiyamoto/heat-sfdx-metadata)
 - [heat-sfdx-soap](https://github.com/takahitomiyamoto/heat-sfdx-soap)
 - [heat-sfdx-common](https://github.com/takahitomiyamoto/heat-sfdx-common)
