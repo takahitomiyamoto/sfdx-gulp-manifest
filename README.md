@@ -30,7 +30,10 @@ Next, let's create a private key and self-signed digital certificate, and store 
 
 > [Create a Private Key and Self-Signed Digital Certificate](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_key_and_cert.htm)
 
-Now, it's time to go.
+Now, it's time to go. Have you already setup `Node.js` and `Yarn`?
+
+- [Node.js](https://nodejs.dev/)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install)
 
 ```sh
 yarn install
