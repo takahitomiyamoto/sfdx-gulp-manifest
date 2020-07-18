@@ -18,13 +18,13 @@ rm -rf .git
 
 Next, let's go to the directory `.secrets`, rename `environment.sample.json` to `environment.json`, and configure a few environment variables:
 
-| name        | description                                     |
-| :---------- | :---------------------------------------------- |
-| clientId    | consumer key of the connected app in your org   |
-| username    | username of the login user to your org          |
-| hostname    | `login.salesforce.com` or `test.salesforce.com` |
-| asOfVersion | API version in your org                         |
-| myDomain    | my domain of your org                           |
+| name        | description                                                                           |
+| :---------- | :------------------------------------------------------------------------------------ |
+| clientId    | consumer key of the connected app in your org                                         |
+| username    | username of the login user to your org                                                |
+| hostname    | `login.salesforce.com` or `test.salesforce.com`                                       |
+| asOfVersion | API version in your org                                                               |
+| myDomain    | my domain of your org <br> e.g.) heat-dev-ed.cs117.my.salesforce.com --> `heat-dev-ed.cs117` |
 
 ### Metadata WSDL
 
