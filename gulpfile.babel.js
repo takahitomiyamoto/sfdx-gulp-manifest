@@ -17,4 +17,4 @@ import buildManifest from './scripts/gulp/metadata/build-manifest';
 
 // gulp tasks
 exports.init = series(cleanCache, upgradeDependencies, cleanLogs);
-exports.manifestCreate = series(loginJwt, buildManifest);
+exports.manifestCreate = series(cleanLogs, loginJwt, buildManifest);
