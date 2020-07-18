@@ -36,5 +36,8 @@ ehthumbs.db
 $RECYCLE.BIN/
 
 .secrets/environment.json
-.secrets/server.key
+.secrets/*.crt
+.secrets/*.key
+.secrets/*.jks
+.secrets/*.p12
 .vscode/
