@@ -1,6 +1,8 @@
 {
-  "orgName": "demo company",
+  "orgName": "Demo Company",
+  "country": "US",
   "edition": "Developer",
-  "features": [],
-  "settings": {}
+  "hasSampleData": true,
+  "language": "en_US",
+  "features": []
 }
